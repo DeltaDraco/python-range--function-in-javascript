@@ -1,1 +1,3 @@
-# python-range--function-in-javascript
+# Python's range() function in javascript!
+- Uses the concept of a `generator function` with `yield` to return the number after each iteration
+- Works with 1, 2, or 3 arguments and negative integers.
