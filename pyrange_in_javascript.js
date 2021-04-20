@@ -1,9 +1,11 @@
+/* range function declaration */
 function* range(start, stop = start, step = 1) {
     for (let i = (stop === start ? 0 : start); (stop > 0 ? i < stop : i > stop); i += step) {
         yield i;
     }
 }
 
+/* usage examples */
 console.log("A single positive integer");
 for (const i of range(6)) {
     console.log(i); // 0 1 2 3 4 5
